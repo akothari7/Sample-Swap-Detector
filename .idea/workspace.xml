@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c9a905e2-1b9e-4e4e-a899-73db6c09779c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identification_2samples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Identification_2samples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Identification_nSamples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Identification_nSamples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDI_verif_snps_2samples.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UDI_verif_snps_2samples.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Identification_2samples.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="375">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -28,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UDI_verif_snps_nsamples.txt">
           <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="341">
-              <caret line="3525" column="21" selection-start-line="3525" selection-start-column="21" selection-end-line="3525" selection-end-column="21" />
+            <state relative-caret-position="251">
+              <caret line="51" column="102" selection-end-line="3525" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -37,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Identification_nSamples.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -47,9 +49,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UDI_verif_snps_10samples.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17190">
+              <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/bin/Sample-Swap-Detector/lib/python2.7/site-packages/pandas/core/generic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="15615">
               <caret line="1090" selection-start-line="1090" selection-end-line="1090" />
             </state>
           </provider>
@@ -58,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UDI_verif_snps_2samples.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            <state relative-caret-position="52725">
+              <caret line="3515" column="98" selection-start-line="3515" selection-start-column="98" selection-end-line="3515" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -79,14 +95,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Identification_nSamples.py" />
+        <option value="$PROJECT_DIR$/UDI_verif_snps_2samples.txt" />
         <option value="$PROJECT_DIR$/Identification_2samples.py" />
+        <option value="$PROJECT_DIR$/Identification_nSamples.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="550" />
     <option name="y" value="25" />
-    <option name="width" value="681" />
+    <option name="width" value="890" />
     <option name="height" value="818" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -95,23 +113,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Sample-Swap-Detector" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sample-Swap-Detector" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="Sample-Swap-Detector" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Desktop/Python/Sample-Swap-Detector" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Sample-Swap-Detector" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sample-Swap-Detector" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Identification_2samples">
+  <component name="RunManager" selected="Python.Identification_nSamples">
     <configuration name="Identification_2samples" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sample-Swap-Detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Identification_nSmples" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Identification_nSamples" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sample-Swap-Detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,13 +196,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Identification_nSmples" />
       <item itemvalue="Python.Identification_2samples" />
+      <item itemvalue="Python.Identification_nSamples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Identification_nSamples" />
         <item itemvalue="Python.Identification_2samples" />
-        <item itemvalue="Python.Identification_nSmples" />
       </list>
     </recent_temporary>
   </component>
@@ -203,19 +221,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="818" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.14799154" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49689442" weight="0.14799154" />
       <window_info id="Structure" order="1" sideWeight="0.5031056" side_tool="true" weight="0.24444444" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30833334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -223,12 +242,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49689442" weight="0.24444444" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.14799154" />
       <window_info id="Structure" order="1" sideWeight="0.5031056" side_tool="true" weight="0.24444444" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -293,31 +312,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UDI_verif_snps_2samples.txt">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        <state relative-caret-position="17190">
+          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/bin/Sample-Swap-Detector/lib/python2.7/site-packages/pandas/core/generic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="15615">
           <caret line="1090" selection-start-line="1090" selection-end-line="1090" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UDI_verif_snps_2samples.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52725">
+          <caret line="3515" column="98" selection-start-line="3515" selection-start-column="98" selection-end-line="3515" selection-end-column="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UDI_verif_snps_nsamples.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="341">
-          <caret line="3525" column="21" selection-start-line="3525" selection-start-column="21" selection-end-line="3525" selection-end-column="21" />
+        <state relative-caret-position="251">
+          <caret line="51" column="102" selection-end-line="3525" selection-end-column="78" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UDI_verif_snps_10samples.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Identification_2samples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -326,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Identification_nSamples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

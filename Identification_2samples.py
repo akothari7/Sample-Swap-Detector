@@ -47,3 +47,5 @@ for i in range(0, len(la)-1):
 
        elif spearman < 0.75 and pearson >= 0.75:
            print('\n' + "According to the pearson coefficient, these samples belong to the same patient, but according to the spearman coefficient, they belong to different ones.")
+
+

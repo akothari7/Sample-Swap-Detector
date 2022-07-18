@@ -1,30 +1,23 @@
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-data = pd.read_csv("UDI_verif_snps_2samples.txt", sep="\t")
+data = pd.read_csv("UDI_verif_snps_10samples.txt", sep="\t")
 
-la = list(data['SAMPLE_NAME'].drop_duplicates())
+samples = data.groupby(["SAMPLE_NAME", "EXPERIMENT_NAME"])
 
-cols = len(la)
-rows = len(la)
+df = pd.DataFrame()
 
-mat = np.array([[0 for _ in range(cols)] for _ in range(rows)], dtype=np.float64)
+for name, sample in samples:
+    sample = sample.sort_values(by=['AMPLICON_NAME'], ascending=True)
+    sample = sample.set_index("AMPLICON_NAME")
+    coverage = sum(sample['ALL_READS'] > 500)
+    if coverage >= 100:
+        df[name] = sample["ADJUSTEDFREQUENCY"]
 
-my_vars=dict()
-new_vars = dict()
-for i in range(0, len(la)):
-    grouped = data.groupby(data["SAMPLE_NAME"])
-    my_vars['r'+str(i)] = grouped.get_group(la[i])
-    my_vars['r'+str(i)] = my_vars['r'+str(i)].sort_values(by=['AMPLICON_NAME'], ascending=True)
-    my_vars['r'+str(i)] = my_vars['r'+str(i)].set_index(my_vars['r'+str(i)]["AMPLICON_NAME"])
-    my_vars['r' + str(i)] = my_vars['r' + str(i)][["ADJUSTEDFREQUENCY"]]
-    my_vars['r' + str(i)].rename(columns = {"ADJUSTEDFREQUENCY": my_vars['r' + str(i)]})
-
-for i in range(0, len(la)-1):
-    for j in range(1, len(la)):
-       print my_vars['r' + str(i)]
-       print my_vars['r' + str(j)]
-       correlation = my_vars['r'+str(i)].corrwith(my_vars['r'+str(j)], method='pearson')
-       mat[i][j] = correlation
-
-print mat
+print df.astype(np.float64).corr("pearson")
+sns.heatmap(df.astype(np.float64).corr("pearson"), annot = True, fmt='.2g',cmap= 'coolwarm')
+plt.show()
